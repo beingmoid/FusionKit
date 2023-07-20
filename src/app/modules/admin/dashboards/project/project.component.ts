@@ -48,7 +48,7 @@ export class ProjectComponent implements OnInit, OnDestroy
             .subscribe((data) => {
 
                 // Store the data
-                this.data = data;
+                this.data =   data;
 
                 // Prepare the chart data
                 this._prepareChartData();
